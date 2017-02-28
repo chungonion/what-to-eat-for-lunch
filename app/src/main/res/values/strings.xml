@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RestaurantGenerator</string>
+    <string name="clear_string">Clear</string>
+    <string name="web_links_string">Web Links</string>
+    <string name="i_am_hungry_string">I Am Hungry!</string>
+    <string name="manage_string">Manage</string>
+    <string name="generate_string">Generate!</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.chungonion.restaurantgenerator.MainActivity">
+
+    <Button
+        android:text="@string/generate_string"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/generateButton"
+        android:layout_width="100dp" />
+
+    <Button
+        android:text="@string/manage_string"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/generateButton"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/manageButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hungryText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:id="@+id/resultText" />
+
+    <TextView
+        android:text="@string/i_am_hungry_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hungryText"
+        android:textSize="35sp"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/clear_string"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/manageButton"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/clearResultButton" />
+
+    <Button
+        android:text="@string/web_links_string"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/clearResultButton"
+        android:layout_alignLeft="@+id/clearResultButton"
+        android:layout_alignStart="@+id/clearResultButton"
+        android:id="@+id/webLinkButton" />
+
+</RelativeLayout>
